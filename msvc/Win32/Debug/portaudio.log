@@ -1,0 +1,74 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Skipping... (no relevant changes detected)
+  main.cpp
+  asiolist.cpp
+  asiodrivers.cpp
+  asio.cpp
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  pa_x86_plain_converters.c
+  pa_win_wdmks_utils.c
+  pa_win_waveformat.c
+  pa_win_util.c
+  pa_win_hostapis.c
+  pa_win_coinitialize.c
+  pa_win_wmme.c
+  pa_win_wdmks.c
+  pa_win_wasapi.c
+  pa_hostapi_skeleton.c
+  pa_win_ds_dynlink.c
+  pa_win_ds.c
+  pa_trace.c
+  pa_stream.c
+  pa_ringbuffer.c
+  pa_process.c
+  pa_front.c
+  pa_dither.c
+  pa_debugprint.c
+  pa_cpuload.c
+  Generating Code...
+  Compiling...
+  pa_converters.c
+  pa_allocation.c
+  Generating Code...
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Skipping... (no relevant changes detected)
+  pa_asio.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1374,5): warning MSB8012: TargetPath(D:\Programmieren\portaudioFork\msvc\Win32\Debug\portaudio.dll) does not match the Linker's OutputFile property value (D:\Programmieren\portaudioFork\msvc\Win32\Debug\portaudio_x86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1376,5): warning MSB8012: TargetName(portaudio) does not match the Linker's OutputFile property value (portaudio_x86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+asio.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library Win32\Debug\portaudio_x86.lib and object Win32\Debug\portaudio_x86.exp
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __calloc_dbg
+main.obj : error LNK2001: unresolved external symbol __calloc_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2001: unresolved external symbol __calloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __calloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __calloc_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol __free_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: unresolved external symbol __free_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __free_dbg
+main.obj : error LNK2001: unresolved external symbol __free_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol __free_dbg
+libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __free_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __free_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+main.obj : error LNK2001: unresolved external symbol __malloc_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReport
+main.obj : error LNK2001: unresolved external symbol __CrtDbgReport
+libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __CrtDbgReport
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __CrtDbgReport
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReport
+libcpmtd.lib(_tolower.obj) : error LNK2019: unresolved external symbol __wcsdup_dbg referenced in function __Getctype
+libcpmtd.lib(xstrcoll.obj) : error LNK2001: unresolved external symbol __wcsdup_dbg
+libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol __realloc_dbg referenced in function "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z)
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function __freea_crt
+libcpmtd.lib(xmbtowc.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+Win32\Debug\portaudio_x86.dll : fatal error LNK1120: 7 unresolved externals

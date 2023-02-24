@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1374,5): warning MSB8012: TargetPath(D:\Programmieren\portaudioFork\msvc\Win32\Release\portaudio.dll) does not match the Linker's OutputFile property value (D:\Programmieren\portaudioFork\msvc\Win32\Release\portaudio_x86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1376,5): warning MSB8012: TargetName(portaudio) does not match the Linker's OutputFile property value (portaudio_x86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library Win32\Release\portaudio_x86.lib and object Win32\Release\portaudio_x86.exp
+  portaudio.vcxproj -> D:\Programmieren\portaudioFork\msvc\Win32\Release\portaudio.dll

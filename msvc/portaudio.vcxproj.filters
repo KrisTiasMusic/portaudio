@@ -123,6 +123,9 @@
     <ClCompile Include="..\..\ASIOSDK\host\pc\asiolist.cpp">
       <Filter>Source Files\hostapi\ASIO\ASIOSDK</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="portaudio.def">
